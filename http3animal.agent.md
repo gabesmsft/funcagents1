@@ -2,7 +2,11 @@
 name: HTTP trigger 3
 description: Call the animals skill
 
-logger: true
+builtin_endpoints:
+  debug_chat_ui: true
+  chat_api: false
+  mcp: false
+
 trigger:
   type: http_trigger
   args:
@@ -19,4 +23,5 @@ response_example: |
 Accept a request body that has the following json format:
 {"animal": "animal_type"}
 
-Use the animals skill to return a response.
+Use the animals skill to return the following response (adjusted for grammar, based on {item}):
+{"impact": "Your {item} is ruined! Impact: ${cost}"}
