@@ -1,6 +1,9 @@
 ---
 name: HTTP trigger 1
 description: Simple HTTP trigger and logger test
+system_tools:
+  dynamic_sessions_code_interpreter: false
+
 
 logger: true
 trigger:

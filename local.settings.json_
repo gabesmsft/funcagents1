@@ -9,6 +9,7 @@
     "FOUNDRY_MODEL": "gpt-4o",
     "sbconn1": "<reacted>",
     "MCP_URL_1": "<reacted>",
-    "FUNCTIONS_MCP_EXTENSION_SYSTEM_KEY_1": "<redacted>"
+    "FUNCTIONS_MCP_EXTENSION_SYSTEM_KEY_1": "<redacted>",
+    "ACA_SESSION_POOL_ENDPOINT": "https://<region>.dynamicsessions.io/subscriptions/<redacted>/resourceGroups/<redacted>/sessionPools/<redacted>",
   }
 }
