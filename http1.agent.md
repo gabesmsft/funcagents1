@@ -17,5 +17,5 @@ response_example: |
 ---
 
 Do the following:
-1. Log "I like cornflakes".
+1. Log the message "I like cornflakes", with "http1 agent" as the source.
 2. In the response, enter "Howdy" as the Greeting, and enter "World" as the name. 
