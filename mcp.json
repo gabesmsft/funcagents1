@@ -1,0 +1,11 @@
+{
+	"servers": {
+		"aca-mcp": {
+			"url": "$MCP_URL_1",
+			"type": "http",
+			"headers": {
+                		"x-functions-key": "$FUNCTIONS_MCP_EXTENSION_SYSTEM_KEY_1"
+			}
+		}
+	}
+}
