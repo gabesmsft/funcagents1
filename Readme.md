@@ -24,15 +24,12 @@ This application demonstrates very simple examples of using the markdown functio
   - FUNCTIONS_MCP_EXTENSION_SYSTEM_KEY_1: <mcp_extension app key from the MCP Function App you deployed>
 
 
+## Test the agent functions and features
 
-
-## Test locally
-### Preparation
+### Preparation for testing locally
 1. Download the repository, and change to the **code** directory.
 2. Run **pip install -r requirements.txt**
-
-
-## Test the agent functions and features
+3. Run **func start**
 
 ### Hello world and invoking a custom tool
 - Inspect the http1.agent.md, and then trigger it via http://localhost:7071/http1
